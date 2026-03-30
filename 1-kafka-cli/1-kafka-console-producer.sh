@@ -15,6 +15,7 @@ kafka-console-producer --bootstrap-server localhost:9092 --topic first_topic
 >My name is Conduktor
 >I love Kafka
 >^C  (<- Ctrl + C is used to exit the producer)
+kafka-console-producer --bootstrap-server localhost:9092 --topic second_topic 
 
 
 # producing with properties

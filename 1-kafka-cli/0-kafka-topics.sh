@@ -24,6 +24,7 @@ kafka-topics --bootstrap-server localhost:9092 --list
 
 # Describe a topic
 kafka-topics --bootstrap-server localhost:9092 --topic first_topic --describe
+kafka-topics --bootstrap-server localhost:9092 --topic second_topic --describe
 
 # Delete a topic 
 kafka-topics --bootstrap-server localhost:9092 --topic first_topic --delete
