@@ -31,3 +31,4 @@ kafka-topics --bootstrap-server localhost:9092 --topic first_topic --delete
 kafka-topics --bootstrap-server localhost:9092 --topic second_topic --delete
 
 # (only works if delete.topic.enable=true)
+
