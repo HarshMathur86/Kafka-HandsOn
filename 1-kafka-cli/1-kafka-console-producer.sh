@@ -15,7 +15,7 @@ kafka-console-producer --bootstrap-server localhost:9092 --topic first_topic
 >My name is Conduktor
 >I love Kafka
 >^C  (<- Ctrl + C is used to exit the producer)
-kafka-console-producer --bootstrap-server localhost:9092 --topic second_topic 
+kafka-console-producer --bootstrap-server localhost:9092 --topic first_topic 
 
 
 # producing with properties
@@ -52,3 +52,5 @@ kafka-topics --bootstrap-server localhost:9092 --topic new_topic_2 --describe
 kafka-console-producer --bootstrap-server localhost:9092 --topic first_topic --property parse.key=true --property key.separator=:
 >example key:example value
 >name:Stephane
+
+kafka-console-producer --bootstrap-server localhost:9092 --topic second_topic --property parse.key=true --property key.separator=:

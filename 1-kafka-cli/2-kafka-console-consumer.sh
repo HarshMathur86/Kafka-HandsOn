@@ -21,3 +21,8 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic second_topic --
 
 # display key, values and timestamp in consumer
 kafka-console-consumer --bootstrap-server localhost:9092 --topic second_topic --formatter kafka.tools.DefaultMessageFormatter --property print.timestamp=true --property print.key=true --property print.value=true --property print.partition=true --from-beginning
+
+# locally working one - some issue with default formatter
+kafka-console-consumer --bootstrap-server localhost:9092 --topic second_topic --property print.timestamp=true --property print.key=true --property print.value=true --property print.partition=true --from-beginning
+
+--formatter 

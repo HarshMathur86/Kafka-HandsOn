@@ -5,5 +5,9 @@
  - Topic message Publishing
  - Topic message Consuming 
 
-![image -0message](resources/0-message-consuming-producing.png)
+![image](resources/0-message-consuming-producing.png)
 
+ - FEtching from begining
+![image](resources/1-message-consuming.png)
+
+ - Using rounf robin strategy
